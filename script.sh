@@ -15,7 +15,7 @@ read -p "What version do you want to build? ex: 1.14 ----- " targetversion
 sleep 1
 echo "--------------------------------------------"
 echo "Launching BuildTools: java -jar BuildTools.jar --rev $targetversion"
-#java -jar BuildTools.jar --rev $targetversion
+java -jar BuildTools.jar --rev $targetversion
 echo "--------------------------------------------"
 echo "SpigotServer built...moving files around & creating SpigotServer directory where your server will be..."
 sleep 1
